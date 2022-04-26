@@ -1,0 +1,16 @@
+POST http://educaid.test/api/register
+content-type: application/json
+
+{
+    "name": "inka1",
+    "email": "inka1@gmail.com",
+    "password": "123456"
+}
+
+POST http://educaid.test/api/login
+content-type: application/json
+
+{
+    "email": "inka1@gmail.com",
+    "password": "123456"
+}
